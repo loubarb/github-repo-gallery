@@ -109,6 +109,7 @@ filterInput.addEventListener("input", function (e) {
             repo.classList.remove("hide");
         } else {
             repo.classList.add("hide");
-        }
+        } 
+        
     }
 });

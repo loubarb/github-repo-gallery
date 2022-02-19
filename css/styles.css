@@ -8,7 +8,7 @@ body {
     justify-content: center;
     margin: 0;
     font-family: "Open Sans", sans-serif;
-    background-color: #fbf9de;
+    background: url(../img/falling-star-gif-7.gif);
     color: #333;
     font-size: 16px;
 }
@@ -42,7 +42,7 @@ h1 {
     font-size: 3.5em;
     text-align: center;
     font-family: "Oswald", sans-serif;
-    background-color: #483978;
+    background: url(../img/falling-star-gif-7.gif);
     color: #fff;
     text-transform: uppercase;
     border-top-left-radius: 20px;
@@ -78,14 +78,19 @@ h1 {
 }
 
 h3 {
+    font-family: 'Raleway', sans-serif;
     width: 100%;
     text-align: center;
-    color: #f86d58;
+    color: #fff;
 }
 
 ul {
     list-style: none;
     padding: 0;
+}
+
+p {
+    color: #fff;
 }
 
 .container {
@@ -107,7 +112,7 @@ ul {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    background-color: #483978;
+    background: url(../img/falling-star-gif-7.gif);
     color: white;
     font-size: 18px;
     padding-bottom: 2em;
@@ -148,18 +153,22 @@ ul {
 }
 
 section.repo-data {
-    background-color: #fff;
+    background-color: #000;
     padding: 2em;
     padding-bottom: 1em;
+    border-top-left-radius: 0.75em;
+    border-top-right-radius: 0.75em;
 }
 
 .repos {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    background-color: #fff;
+    background-color: #000;
     margin-top: 0;
     padding: 2em;
+    border-top-left-radius: 0.75em;
+    border-top-right-radius: 0.75em;
 }
 
 .repo-list {
@@ -173,18 +182,22 @@ section.repo-data {
 .repo-list li {
     width: 90%;
     margin: 1em 0;
-    border: 1px solid #f86d58;
+    border: 1px solid #000;
     padding: 0.5em;
 }
 
 .repo-list h3 {
-    text-align: left;
+    text-align: center;
     margin: 0;
     padding: 10px;
 }
 
 .repo-list h3:hover {
-    background-color: #eee9ff;
+    font-family: 'Raleway', sans-serif;
+    background-color: #fff;
+    color: #2f2550;
+    text-align: center;
+    font-style: italic;
     cursor: pointer;
 }
 
@@ -209,8 +222,8 @@ section.repo-data {
     margin-top: 2em;
     cursor: pointer;
     display: block;
-    background-color: #483978;
-    border: 1px solid #483978;
+    background-color: #1c1d3e;
+    border: 1px solid #1c1d3e;
 }
 
 .repo-data .visit:hover {
@@ -220,9 +233,11 @@ section.repo-data {
 
 .button-container {
     width: 100%;
-    background-color: #fff;
+    background-color: #000;
     padding-left: 2em;
     padding-bottom: 2em;
+    border-bottom-left-radius: 0.75em;
+    border-bottom-right-radius: 0.75em;
 }
 
 .view-repos {
